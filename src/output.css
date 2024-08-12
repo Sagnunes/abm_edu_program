@@ -1457,6 +1457,45 @@ body{
   font-family: 'Hepta Slab', serif;
 }
 
+.hover\:bg-white:hover{
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.hover\:text-\[\#F3A9A9\]:hover{
+  --tw-text-opacity: 1;
+  color: rgb(243 169 169 / var(--tw-text-opacity));
+}
+
+.hover\:text-\[\#fff\]:hover{
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.hover\:text-\[\#000\]:hover{
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
+.hover\:text-black:hover{
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
+.hover\:text-\[\#1B1957\]:hover{
+  --tw-text-opacity: 1;
+  color: rgb(27 25 87 / var(--tw-text-opacity));
+}
+
+.hover\:text-\[\#6D750F\]:hover{
+  --tw-text-opacity: 1;
+  color: rgb(109 117 15 / var(--tw-text-opacity));
+}
+
+.hover\:opacity-85:hover{
+  opacity: 0.85;
+}
+
 @media (min-width: 640px){
   .sm\:mt-4{
     margin-top: 1rem;
