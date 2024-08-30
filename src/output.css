@@ -1106,12 +1106,28 @@ html{
   height: 100%;
 }
 
+.h-8{
+  height: 2rem;
+}
+
+.h-2{
+  height: 0.5rem;
+}
+
+.h-1{
+  height: 0.25rem;
+}
+
 .w-10{
   width: 2.5rem;
 }
 
 .w-\[350px\]{
   width: 350px;
+}
+
+.w-\[550px\]{
+  width: 550px;
 }
 
 .w-fit{
@@ -1123,8 +1139,16 @@ html{
   width: 100%;
 }
 
-.w-\[550px\]{
-  width: 550px;
+.w-8{
+  width: 2rem;
+}
+
+.w-2{
+  width: 0.5rem;
+}
+
+.w-1{
+  width: 0.25rem;
 }
 
 .cursor-pointer{
@@ -1137,6 +1161,10 @@ html{
 
 .grid-cols-1{
   grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
+.flex-row{
+  flex-direction: row;
 }
 
 .flex-col{
@@ -1157,6 +1185,10 @@ html{
 
 .items-center{
   align-items: center;
+}
+
+.justify-start{
+  justify-content: flex-start;
 }
 
 .justify-end{
@@ -1203,6 +1235,12 @@ html{
   --tw-space-y-reverse: 0;
   margin-top: calc(2rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(2rem * var(--tw-space-y-reverse));
+}
+
+.space-x-2 > :not([hidden]) ~ :not([hidden]){
+  --tw-space-x-reverse: 0;
+  margin-right: calc(0.5rem * var(--tw-space-x-reverse));
+  margin-left: calc(0.5rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
 .rounded-box{
@@ -1361,6 +1399,10 @@ html{
 .text-xs{
   font-size: 0.75rem;
   line-height: 1rem;
+}
+
+.text-\[24px\]{
+  font-size: 24px;
 }
 
 .font-bold{
@@ -1531,12 +1573,20 @@ body{
     margin-bottom: 2rem;
   }
 
+  .lg\:ml-\[10px\]{
+    margin-left: 10px;
+  }
+
   .lg\:ml-\[138px\]{
     margin-left: 138px;
   }
 
   .lg\:ml-\[150px\]{
     margin-left: 150px;
+  }
+
+  .lg\:ml-\[20px\]{
+    margin-left: 20px;
   }
 
   .lg\:ml-\[450px\]{
@@ -1549,18 +1599,6 @@ body{
 
   .lg\:mt-8{
     margin-top: 2rem;
-  }
-
-  .lg\:ml-\[20px\]{
-    margin-left: 20px;
-  }
-
-  .lg\:ml-\[15px\]{
-    margin-left: 15px;
-  }
-
-  .lg\:ml-\[10px\]{
-    margin-left: 10px;
   }
 
   .lg\:flex{
@@ -1591,12 +1629,8 @@ body{
     width: 100%;
   }
 
-  .lg\:w-\[450px\]{
-    width: 450px;
-  }
-
-  .lg\:w-\[550px\]{
-    width: 550px;
+  .lg\:w-\[700px\]{
+    width: 700px;
   }
 
   .lg\:grid-cols-4{
@@ -1660,6 +1694,11 @@ body{
     text-align: end;
   }
 
+  .lg\:text-2xl{
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
   .lg\:text-5xl{
     font-size: 3rem;
     line-height: 1;
@@ -1670,13 +1709,13 @@ body{
     line-height: 1;
   }
 
+  .lg\:text-\[24px\]{
+    font-size: 24px;
+  }
+
   .lg\:text-lg{
     font-size: 1.125rem;
     line-height: 1.75rem;
-  }
-
-  .lg\:text-\[24px\]{
-    font-size: 24px;
   }
 
   .lg\:font-bold{
